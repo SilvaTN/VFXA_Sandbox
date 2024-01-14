@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 194106bb477307c47807bebea6a330ed
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TextureSample0: {fileID: 2800000, guid: 60958bf510f80894c8d805c44bd27b67, type: 3}
+  - _WarpTexture: {fileID: 2800000, guid: cf400388acc294e4bad75c383cf92556, type: 3}
+  - _WoodMask: {fileID: 2800000, guid: d1ee719d49a15dd4f9ccd5b16d87a690, type: 3}
+  - _TX_Flowmap_01_N: {fileID: 2800000, guid: f2e297d3be850654da814c7c0e7d892e, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

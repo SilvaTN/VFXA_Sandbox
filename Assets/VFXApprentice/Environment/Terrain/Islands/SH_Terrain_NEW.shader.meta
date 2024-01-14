@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 76f14993fa37de64a94c9b94bfd272f4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TerrainBaseColor: {fileID: 2800000, guid: f8ea716c01d940847a5181c1f5708ef5, type: 3}
+  - _MossBaseColor: {fileID: 2800000, guid: e0f079b5a25b29948b65274ad399e6f9, type: 3}
+  - _TerrainNormal: {fileID: 2800000, guid: a2e6f33b1dd93a94bbf070254e0c3314, type: 3}
+  - _TextureSample: {fileID: 2800000, guid: 10c6718601b991d40bc38bfb378a4c7e, type: 3}
+  - _MossNormal: {fileID: 2800000, guid: ca7d155e760d0eb42b999f07357ebfb0, type: 3}
+  - _TerrainRough: {fileID: 2800000, guid: 3684af05875762b4689fe5f6ae45425d, type: 3}
+  - _TerrainAO: {fileID: 2800000, guid: 3ae690fec59d8ec4ca3994b1cba21c28, type: 3}
+  - _MossAO: {fileID: 2800000, guid: 5e7fd0afbe4f0144da13cb9825e783ae, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

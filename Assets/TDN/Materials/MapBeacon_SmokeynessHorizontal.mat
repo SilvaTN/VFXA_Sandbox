@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5049589676813698568
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MapBeacon_SmokeynessHorizontal
+  m_Shader: {fileID: -6465566751694194690, guid: 5cd2cc1a178f5424da72cc061a878aec, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_13ec861a9b4d416693cd07749f5f3240_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 32ae9b466466e8c4c869d17ba360a9fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxMain:
+        m_Texture: {fileID: 2800000, guid: 6908889f7407d8740b90cf89bb8a5122, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxShapeMask:
+        m_Texture: {fileID: 2800000, guid: fc59fdf889fd24d4f8344e1103614e9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 0
+    - _BUILTIN_DstBlend: 10
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 5
+    - _BUILTIN_Surface: 1
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 0
+    - _BUILTIN_ZWriteControl: 0
+    - _BloomMultiplier: 14
+    - _DepthFadeDistance: 1
+    - _DepthFadeOpacity: 1
+    - _DepthFadePower: 1
+    - _DepthFadeToPowerOf: 1
+    - _DistortionAmountLerp: 1
+    - _DistortionScale: 10
+    - _FresnelInvertLerp: 0
+    - _FresnelPower: 0.1
+    - _GradientNoiseScale: 11
+    - _LerpFresnelInverter: 0
+    - _MultiplyWithFresnelColor: 0
+    - _MultiplyWithTxMainColor: 0
+    - _NoiseContrastPower: 5
+    - _PolarLerpGradientAdd: -0.3
+    - _SimpleNoiseScale: 13.4
+    - _TxContrast: 3
+    - _VoronoiCellDensity: 3
+    - _VoronoiLerpVertexAlpha: 1
+    - _VoronoiLerpVertexColor: 1
+    - _VoronoiPower: 4.16
+    - _VoronoiScale: 2.76
+    m_Colors:
+    - _ColorOfFadedAlphaInTx: {r: 0.027451038, g: 0, b: 1, a: 0}
+    - _FresnelColorA: {r: 1, g: 0, b: 0, a: 0}
+    - _FresnelColorB: {r: 0, g: 0.37826777, b: 1, a: 0}
+    - _PerlinTileAndOffsetSpeed: {r: 1, g: 1, b: 0.1, a: -0.5}
+    - _PolarCenterXY: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ShapeMaskTileAndOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _TileAndOffsetSpeed: {r: 1.5, g: 1, b: -0.4, a: 0.05}
+    - _TxMainTileAndOffsetSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _TxShapeMaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _VoronoiCellCentreColor: {r: 0, g: 1, b: 0.9171715, a: 0}
+    - _VoronoiTileAndOffsetSpeed: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

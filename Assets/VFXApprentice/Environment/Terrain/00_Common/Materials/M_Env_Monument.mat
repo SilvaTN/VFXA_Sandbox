@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Env_Monument
+  m_Shader: {fileID: 4800000, guid: c5d374ab0654174448db8119ccc7ed4a, type: 3}
+  m_ValidKeywords:
+  - _BLENDON_ON
+  - _SWITCHTOWORLDTRIPLANAR_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: e5916bc899761fe40a5062fb04275aee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer01Normal:
+        m_Texture: {fileID: 2800000, guid: 10c6718601b991d40bc38bfb378a4c7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer01RAOHMTexture:
+        m_Texture: {fileID: 2800000, guid: 6bc56301a4dea744aacfff3809c4f192, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer02Normal:
+        m_Texture: {fileID: 2800000, guid: 0a684a77de1e9a148bee625c684705c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer02RAOHMTexture:
+        m_Texture: {fileID: 2800000, guid: 98280c360df89d944ad0a3de17e9dcda, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer03Normal:
+        m_Texture: {fileID: 2800000, guid: e429287be7133a44cb195ea61921620e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer03RAOHMTexture:
+        m_Texture: {fileID: 2800000, guid: adbb1b1cc63c20f4491c5471ed73bd78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer04Normal:
+        m_Texture: {fileID: 2800000, guid: 10c6718601b991d40bc38bfb378a4c7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer04RAOHMTexture:
+        m_Texture: {fileID: 2800000, guid: 6bc56301a4dea744aacfff3809c4f192, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainNormal:
+        m_Texture: {fileID: 2800000, guid: fe53404d4a3bea64f910c7c9a40716c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Blend01Bias: 1.427159
+    - _Blend01Contrast: 2.922621
+    - _Blend02Bias: 1.598334
+    - _Blend02Contrast: 0.1
+    - _Blend03Bias: 1.321779
+    - _Blend03Contrast: 0.826869
+    - _BlendOn: 1
+    - _BlendsDivisor: 2.222222
+    - _BlendsOffset: 0.130159
+    - _DISTANCE_FIELD_NOT_SUPPORTED: 1
+    - _DistanceBlendContrast: 1
+    - _DistanceFieldUVScale: 32
+    - _Float1: 0
+    - _Float2: 0
+    - _Float4: 0
+    - _FlowBlend: 1
+    - _FlowStrength: 1.7799
+    - _FlowUVScale: 1
+    - _Keyword0: 0
+    - _Laye1Spec: 0.25
+    - _Laye2Spec: 0.25
+    - _Laye3Spec: 0.25
+    - _Laye4Spec: 0.25
+    - _Layer01FlowIntensity: 0
+    - _Layer01NormalFlatten: 0.866931
+    - _Layer01Tiling: 0.965
+    - _Layer02NormalFlatten: 0
+    - _Layer02Tiling: 0.431
+    - _Layer03NormalFlatten: 0
+    - _Layer03Tiling: 1
+    - _Layer04NormalFlatten: 0.774633
+    - _Layer04Tiling: 1.43
+    - _Layer1Spec: 1
+    - _Layer2Spec: 1
+    - _Layer3Spec: 0.7866
+    - _Layer4Spec: 1
+    - _RoughnessMax: 1
+    - _RoughnessMin: 0.16
+    - _SwitchtoWorldTriplanar: 1
+    - _UVWorldXYScale: 2.33
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer01AColor: {r: 0.4901961, g: 0.50980395, b: 0.52156866, a: 1}
+    - _Layer01BColor: {r: 0.5764706, g: 0.59607846, b: 0.5529412, a: 1}
+    - _Layer02AColor: {r: 0.54901963, g: 0.5411765, b: 0.50980395, a: 1}
+    - _Layer02BColor: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+    - _Layer03AColor: {r: 0.19215688, g: 0.2392157, b: 0.24313727, a: 1}
+    - _Layer03BColor: {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+    - _Layer04AColor: {r: 0.5882353, g: 0.5882353, b: 0.6156863, a: 1}
+    - _Layer04BColor: {r: 0.6313726, g: 0.63529414, b: 0.6509804, a: 1}
+  m_BuildTextureStacks: []

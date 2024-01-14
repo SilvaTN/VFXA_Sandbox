@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Bridge
+  m_Shader: {fileID: 4800000, guid: 194106bb477307c47807bebea6a330ed, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f2e297d3be850654da814c7c0e7d892e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_Flowmap_01_N:
+        m_Texture: {fileID: 2800000, guid: f2e297d3be850654da814c7c0e7d892e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: d1ee719d49a15dd4f9ccd5b16d87a690, type: 3}
+        m_Scale: {x: 0, y: 12}
+        m_Offset: {x: 0, y: 0}
+    - _WarpTexture:
+        m_Texture: {fileID: 2800000, guid: cf400388acc294e4bad75c383cf92556, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _WoodMask:
+        m_Texture: {fileID: 2800000, guid: d1ee719d49a15dd4f9ccd5b16d87a690, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _BoardsBrightness: 1
+    - _BoardsContrast: 0.181
+    - _Contrast: 0.5
+    - _Float2: 0.63
+    - _WarpIntensity: 0.509
+    m_Colors:
+    - _BaseColor01: {r: 0.6627451, g: 0.6039216, b: 0.53333336, a: 1}
+    - _BaseColor02: {r: 0.5283019, g: 0.37826332, b: 0.31648272, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RopeColor: {r: 0.69411767, g: 0.6392157, b: 0.5686275, a: 1}
+    - _WoodChamfers: {r: 0.3962264, g: 0.33840445, b: 0.31212175, a: 1}
+  m_BuildTextureStacks: []

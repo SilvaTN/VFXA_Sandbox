@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8983881493418476502
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RacingCheckpoint_Bubble
+  m_Shader: {fileID: -6465566751694194690, guid: 7754b75820b1fb44396320a409b97e12, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TxMain:
+        m_Texture: {fileID: 2800000, guid: 52a73972af8a79340b30fc80f47bd6b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 2
+    - _BUILTIN_DstBlend: 10
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 5
+    - _BUILTIN_Surface: 1
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 0
+    - _BUILTIN_ZWriteControl: 0
+    - _BloomMultiplier: 2
+    - _DepthFadeDistance: 0.015
+    - _DepthFadeToPowerOf: 1
+    - _FresnelInvertLerp: 1
+    - _FresnelPower: 0
+    - _MultiplyWithFresnelColor: 0
+    - _MultiplyWithTxMainColor: 1
+    m_Colors:
+    - _FresnelColorA: {r: 1, g: 0, b: 0, a: 0}
+    - _FresnelColorB: {r: 0, g: 0.37826777, b: 1, a: 0}
+    - _TxMainTileAndOffsetSpeed: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

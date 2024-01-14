@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ea400a4e7b8ac4faad3010118f3725, type: 3}
+  m_Name: CustomPostProcessingMaterials
+  m_EditorClassIdentifier: 
+  VFXAFogMaterial: {fileID: 2100000, guid: fa257325e8743154099a306f04f089f8, type: 2}
+  VFXAVolumetricFogMaterial: {fileID: 2100000, guid: 6c01925b9a58646498dd77f9052f078f, type: 2}

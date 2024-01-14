@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_TreeLeaves
+  m_Shader: {fileID: 4800000, guid: 738cc44fe4239a048b791d96c2b172a8, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 93267e8d1542a974ab6d2daf95c0ff20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorID:
+        m_Texture: {fileID: 2800000, guid: 20e8b5797efd86c41b4c1ba9827e7765, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowHeightMask:
+        m_Texture: {fileID: 2800000, guid: d1ee719d49a15dd4f9ccd5b16d87a690, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: e5916bc899761fe40a5062fb04275aee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer01Normal:
+        m_Texture: {fileID: 2800000, guid: abf790eb2fc5a2a4da76c3d8356191fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer01RAOHM:
+        m_Texture: {fileID: 2800000, guid: d0ec1dbd8d7137a48b0ef6b83149246d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer02Normal:
+        m_Texture: {fileID: 2800000, guid: 1ae807b896fabcb4eae58a72a9a0eb83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer02RAOHM:
+        m_Texture: {fileID: 2800000, guid: 9b3604fad6dfa3f4a9da853a77c1655f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: c3452834c880a9946a32602c89b3de2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_Flowmap_03_A:
+        m_Texture: {fileID: 2800000, guid: 14c0c6037c9ec4a48a9e2bb851dfce4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_Rock_N:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: c3452834c880a9946a32602c89b3de2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _grass_RAHM:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _grass_normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaBias: 2
+    - _AlphaCutoff: 0.5
+    - _Blend01Contrast: 1
+    - _ColorOffset: 0
+    - _ColorVariation: 32
+    - _Contrast: 0
+    - _Cutoff: 0.5
+    - _EmissiveComponent: 0.31
+    - _FlowAmount: 0.786667
+    - _FlowStrength: 1.055238
+    - _FlowUScale: 1
+    - _FlowVScale: 1
+    - _MaskContrast: 0
+    - _MipBias: 8
+    - _Roughness: 0.731746
+    - _TextureSize: 512
+    - _TransAmbient: 0.1
+    - _TransDirect: 0.9
+    - _TransNormal: 0.5
+    - _TransScattering: 2
+    - _TransShadow: 0.5
+    - _TransStrength: 1
+    - _UScale: 1
+    - _VScale: 1
+    - _WindIntensity: 4
+    - _WindSpeed: 1.5
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.3766535, b: 0, a: 1}
+    - _Color1: {r: 0, g: 0, b: 0, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color3: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondaryColor: {r: 1, g: 0.3915094, b: 0.59856516, a: 1}
+  m_BuildTextureStacks: []
