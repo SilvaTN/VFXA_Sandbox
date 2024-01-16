@@ -8,19 +8,15 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MI_WaterBeamOutsideSpiralPiece_002
-  m_Shader: {fileID: -6465566751694194690, guid: 84e34e7e46ad2ac4b9ba253faad24b54, type: 3}
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_Shader: {fileID: -6465566751694194690, guid: 3010a04c94409b349a35f5e22134ca30, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -112,7 +108,7 @@ Material:
     - _DistortionScale: 10
     - _Distxn_Intensity: 0
     - _DitherIn: 2.01
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _FresnelMultiplier: 1
     - _FresnelMultiplierForLerp: 55
     - _FresnelPower: 1
@@ -133,8 +129,8 @@ Material:
     - _SmoothStepE2: 0
     - _SmoothStepEdge1CustomReplaced: 0
     - _SmoothStepEdge2: 0.1
-    - _SrcBlend: 5
-    - _Surface: 1
+    - _SrcBlend: 1
+    - _Surface: 0
     - _TxMainConstrastToPowerOf: 4
     - _UDistortionMultiplier: 1
     - _VDistortionMultiplier: 1
@@ -147,7 +143,7 @@ Material:
     - _VoronoiPower: 4.16
     - _WorkflowMode: 1
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _BothTxOpacitiesSpiralUV: {r: 0, g: 0, b: 0, a: 0}
