@@ -95,11 +95,11 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BloomMultiplier: 1.2
+    - _BloomMultiplier: 1
     - _CastShadows: 0
     - _Cull: 0
     - _DepthFadeDistance: 0
-    - _DepthFadeMultiplier: 11
+    - _DepthFadeMultiplier: 111
     - _DepthFadeOpacity: 0.1
     - _DepthFadePower: 1
     - _Depth_Fade_Distance: 0
