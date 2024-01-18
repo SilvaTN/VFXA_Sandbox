@@ -99,7 +99,7 @@ Material:
     - _CastShadows: 0
     - _Cull: 1
     - _DepthFadeDistance: 0
-    - _DepthFadeMultiplier: 1
+    - _DepthFadeMultiplier: 2
     - _DepthFadeOpacity: 0.1
     - _DepthFadePower: 1
     - _Depth_Fade_Distance: 0
