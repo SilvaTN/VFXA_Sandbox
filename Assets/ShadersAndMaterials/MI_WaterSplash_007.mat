@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_WaterSplash_007
+  m_Shader: {fileID: -6465566751694194690, guid: 7c4147230c9a5fd4597eae0073b59cb0, type: 3}
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_ea932f33c12c474da2adc0f95403a803_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: adc3f470595bfb9409021ca78b61badf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxColor:
+        m_Texture: {fileID: 2800000, guid: e00510e9d4b2fc646b0763c0c3912232, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxDistortion:
+        m_Texture: {fileID: 2800000, guid: 18b1e0102fa2aa54c8ed54c227c80530, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxDistxn:
+        m_Texture: {fileID: 2800000, guid: dce13bddc67ea5e438268a9f33c6b131, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxMain:
+        m_Texture: {fileID: 2800000, guid: 19c855265eb011849b01df70e13ce24a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxNoise:
+        m_Texture: {fileID: 2800000, guid: bcef5893c93512d43be9ef06272750d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TxOpacityMask002:
+        m_Texture: {fileID: 2800000, guid: bf0f102479569374fb6244c8079ed7e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tx_Emissive:
+        m_Texture: {fileID: 2800000, guid: 049ad23e83a8c214bb46ce980c2b9853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tx_Opacity_Mask:
+        m_Texture: {fileID: 2800000, guid: bcef5893c93512d43be9ef06272750d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tx_Vertex_Offset:
+        m_Texture: {fileID: 2800000, guid: bcef5893c93512d43be9ef06272750d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tx_Water_Color:
+        m_Texture: {fileID: 2800000, guid: f746776da4a21f048a86665cab903ce4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdjustDistortionUpAndDown: -0.323
+    - _AlphaClip: 0
+    - _AlphaFresnelMultiplier: 1
+    - _AlphaFresnelPower: 0
+    - _AlphaSmoothStepE1: 0
+    - _AlphaSmoothStepE2: 0.8
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BloomMultiplier: 2
+    - _CastShadows: 0
+    - _Cull: 2
+    - _DepthFadeDistance: 0
+    - _DepthFadeMultiplier: 0.4
+    - _DepthFadeOpacity: 0.1
+    - _DepthFadePower: 1
+    - _Depth_Fade_Distance: 0
+    - _DissolveSmoothStepE1: 0
+    - _DissolveSmoothStepE2: 0
+    - _DistortionAmountLerp: 0.1
+    - _DistortionColorMultiplier: 0.1
+    - _DistortionMultiplier: 0.2
+    - _DistortionNoiseMultiplier: 0.3
+    - _DistortionScale: 10
+    - _Distxn_Intensity: 0
+    - _DitherIn: 2.01
+    - _DstBlend: 10
+    - _FresnelMultiplier: 1
+    - _FresnelMultiplierForLerp: 55
+    - _FresnelPower: 1
+    - _FresnelPowerForLerp: 3
+    - _Fresnel_Power: 1
+    - _GradientVSubtractionToPowerOf: 11
+    - _HasDepthFade: 1
+    - _HasFresnel: 1
+    - _IsFresnelInverted: 0
+    - _LerpBaseVsEmissiveColor: 0
+    - _LerpFresnelDistortion: 0
+    - _LerpTxOpacityMaskVsGradient: 0.3
+    - _MainNormalStrength: 0.1
+    - _Multiply_Tx_Water_Color: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SmoothStepE1: 0
+    - _SmoothStepE2: 0
+    - _SmoothStepEdge1CustomReplaced: 0
+    - _SmoothStepEdge2: 0.1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _TxMainConstrastToPowerOf: 1
+    - _UDistortionMultiplier: 1
+    - _VDistortionMultiplier: 1
+    - _VertexDisplacementContrastPower: 1
+    - _VertexDisplacementMultiplier: 0.2
+    - _Vertex_Displacement_Intensity: 0
+    - _VoronoiCellDensity: 3
+    - _VoronoiLerpVertexAlpha: 0.5
+    - _VoronoiLerpVertexColor: 0.5
+    - _VoronoiPower: 4.16
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BothTxOpacitiesSpiralUV: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorForTxColorLowAlpha: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorOfFadedAlphaInTx: {r: 1, g: 0.503516, b: 0.27843136, a: 0}
+    - _ColorOfTxFadedAlpha: {r: 1, g: 1, b: 1, a: 0}
+    - _DisplacementSpeedUV: {r: 1, g: 0, b: 0, a: 0}
+    - _DisplacementSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
+    - _DisplacementTileUV: {r: 0.4, g: 1, b: 0, a: 0}
+    - _DistortionSpeedUV: {r: 0.3, g: 1.5, b: 0, a: 0}
+    - _DistortionSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortionTileAndSpeed: {r: 1, g: 1, b: 0, a: 0.2}
+    - _DistortionTileUV: {r: 5, g: 1, b: 0, a: 0}
+    - _DistxnIntensityUV: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveOffsetUV: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveSpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveSpiralUV: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveTileUV: {r: 1, g: 1, b: 0, a: 0}
+    - _Emissive_Color: {r: 0, g: 4, b: 3.449684, a: 0}
+    - _FresnelColor: {r: 0.51397294, g: 0.648316, b: 0.6603774, a: 0}
+    - _FresnelLerpColorA: {r: 1, g: 1, b: 1, a: 0}
+    - _FresnelLerpColorB: {r: 1, g: 1, b: 1, a: 0}
+    - _Fresnel_Inner_Color_A: {r: 0, g: 0, b: 0, a: 0}
+    - _Fresnel_Outer_Color_B: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColorA: {r: 0, g: 0.2204752, b: 1, a: 0}
+    - _MainColorB: {r: 0.5707547, g: 0.938296, b: 1, a: 0}
+    - _MainOffsetUV: {r: 0, g: 0, b: 0, a: 0}
+    - _MainSpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _MainSpiralMultilplierUV: {r: 0, g: 0, b: 0, a: 0}
+    - _MainSpiralUV: {r: 0, g: 0, b: 0, a: 0}
+    - _MainTileUV: {r: 6, g: 1.2, b: 0, a: 0}
+    - _NoiseSpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseSpiralMultiplierUV: {r: 0.3, g: 0, b: 0, a: 0}
+    - _NoiseTileUV: {r: 4, g: 0.7, b: 0, a: 0}
+    - _Opacity002SpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _Opacity002TileUV: {r: 4, g: 1.2, b: 0, a: 0}
+    - _OpacityOffsetUV: {r: 0, g: 0, b: 0, a: 0}
+    - _OpacitySpeedUV: {r: 1, g: 1, b: 0, a: 0}
+    - _OpacitySpiralUV: {r: 0, g: 0, b: 0, a: 0}
+    - _OpacityTileUV: {r: 4, g: 1.2, b: 0, a: 0}
+    - _OverallSpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _OverallSpiralUV: {r: 0, g: 0, b: 0, a: 0}
+    - _PerlinTileAndOffsetSpeed: {r: 1, g: 1, b: 0.1, a: -0.5}
+    - _PolarCentreXY: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _PolarTileAndSpeed: {r: 3, g: 3, b: -1, a: 0.3}
+    - _TxColorTileAndOffsetSpeed: {r: 1, g: 3, b: -0.5, a: 0.2}
+    - _TxNoiseTileAndSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _VDOffsetUV: {r: 0, g: 0, b: 0, a: 0}
+    - _VDSpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _VDSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
+    - _VDTileUV: {r: 2, g: 1, b: 0, a: 0}
+    - _VoronoiCellCentreColor: {r: 0.7169812, g: 0.05749376, b: 0.111246355, a: 0}
+    - _VoronoiTileAndOffsetSpeed: {r: 1, g: 1, b: 0.1, a: -0.5}
+    - _White_Overrides_Tx_Water_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &4910611207526447733
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
