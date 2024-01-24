@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_WaterSplash_006
-  m_Shader: {fileID: -6465566751694194690, guid: 7c4147230c9a5fd4597eae0073b59cb0, type: 3}
+  m_Name: MI_WaterSplash_013_Highlight3
+  m_Shader: {fileID: -6465566751694194690, guid: 62d5a1601bd5cb946b283cbf016e775d, type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -24,6 +24,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_8414746ca62c42a69267e44d10751a33_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 26b388faa869dc34699be3130749d280, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c26f703c7fbd4f38bc051e5f14bf82c4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 26b388faa869dc34699be3130749d280, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -45,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TxMain:
-        m_Texture: {fileID: 2800000, guid: 19c855265eb011849b01df70e13ce24a, type: 3}
+        m_Texture: {fileID: 2800000, guid: a176f8ef0ff88654ab23c6fbeec8b71a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TxNoise:
@@ -90,14 +98,14 @@ Material:
     - _AlphaClip: 0
     - _AlphaFresnelMultiplier: 1
     - _AlphaFresnelPower: 0
-    - _AlphaSmoothStepE1: 0
-    - _AlphaSmoothStepE2: 0.3
+    - _AlphaSmoothStepE1: 0.7
+    - _AlphaSmoothStepE2: 0.1
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BloomMultiplier: 1.5
     - _CastShadows: 0
-    - _Cull: 0
+    - _Cull: 2
     - _DepthFadeDistance: 0
     - _DepthFadeMultiplier: 0.4
     - _DepthFadeOpacity: 0.1
@@ -106,7 +114,7 @@ Material:
     - _DissolveSmoothStepE1: 0
     - _DissolveSmoothStepE2: 0
     - _DistortionAmountLerp: 0.1
-    - _DistortionColorMultiplier: 0.1
+    - _DistortionColorMultiplier: 0.2
     - _DistortionMultiplier: 0.2
     - _DistortionNoiseMultiplier: 0.3
     - _DistortionScale: 10
@@ -118,7 +126,6 @@ Material:
     - _FresnelPower: 1
     - _FresnelPowerForLerp: 3
     - _Fresnel_Power: 1
-    - _GradientVSubtractionToPowerOf: 11
     - _HasDepthFade: 1
     - _HasFresnel: 1
     - _IsFresnelInverted: 0
@@ -130,13 +137,15 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _ShapeAlphaSmoothStepE1: 0
+    - _ShapeAlphaSmoothStepE2: 0
     - _SmoothStepE1: 0
     - _SmoothStepE2: 0
     - _SmoothStepEdge1CustomReplaced: 0
     - _SmoothStepEdge2: 0.1
     - _SrcBlend: 5
     - _Surface: 1
-    - _TxMainConstrastToPowerOf: 2
+    - _TxMainConstrastToPowerOf: 4
     - _UDistortionMultiplier: 1
     - _VDistortionMultiplier: 1
     - _VertexDisplacementContrastPower: 1
@@ -155,13 +164,13 @@ Material:
     - _ColorForTxColorLowAlpha: {r: 1, g: 1, b: 1, a: 0}
     - _ColorOfFadedAlphaInTx: {r: 1, g: 0.503516, b: 0.27843136, a: 0}
     - _ColorOfTxFadedAlpha: {r: 1, g: 1, b: 1, a: 0}
-    - _DisplacementSpeedUV: {r: -0.2, g: 0, b: 0, a: 0}
+    - _DisplacementSpeedUV: {r: -0.2, g: 1, b: 0, a: 0}
     - _DisplacementSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
     - _DisplacementTileUV: {r: 1, g: 1, b: 0, a: 0}
-    - _DistortionSpeedUV: {r: 0.1, g: -0.2, b: 0, a: 0}
+    - _DistortionSpeedUV: {r: -0.7, g: 0.2, b: 0, a: 0}
     - _DistortionSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionTileAndSpeed: {r: 1, g: 1, b: 0, a: 0.2}
-    - _DistortionTileUV: {r: 5, g: 1, b: 0, a: 0}
+    - _DistortionTileUV: {r: 1, g: 3, b: 0, a: 0}
     - _DistxnIntensityUV: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveOffsetUV: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveSpeedUV: {r: 0, g: 0, b: 0, a: 0}
@@ -169,17 +178,17 @@ Material:
     - _EmissiveTileUV: {r: 1, g: 1, b: 0, a: 0}
     - _Emissive_Color: {r: 0, g: 4, b: 3.449684, a: 0}
     - _FresnelColor: {r: 0.51397294, g: 0.648316, b: 0.6603774, a: 0}
-    - _FresnelLerpColorA: {r: 1, g: 1, b: 1, a: 0}
+    - _FresnelLerpColorA: {r: 0.7877358, g: 0.90965164, b: 1, a: 0}
     - _FresnelLerpColorB: {r: 1, g: 1, b: 1, a: 0}
     - _Fresnel_Inner_Color_A: {r: 0, g: 0, b: 0, a: 0}
     - _Fresnel_Outer_Color_B: {r: 0, g: 0, b: 0, a: 0}
-    - _MainColorA: {r: 0.23137254, g: 0.6310852, b: 1, a: 0}
-    - _MainColorB: {r: 0.5707547, g: 0.938296, b: 1, a: 0}
+    - _MainColorA: {r: 0.4950605, g: 0.60453075, b: 0.8396226, a: 0}
+    - _MainColorB: {r: 0.88461196, g: 0.94873035, b: 0.9716981, a: 0}
     - _MainOffsetUV: {r: 0, g: 0, b: 0, a: 0}
-    - _MainSpeedUV: {r: 0, g: 0, b: 0, a: 0}
+    - _MainSpeedUV: {r: -1, g: 0.3, b: 0, a: 0}
     - _MainSpiralMultilplierUV: {r: 0, g: 0, b: 0, a: 0}
     - _MainSpiralUV: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTileUV: {r: 6, g: 1.2, b: 0, a: 0}
+    - _MainTileUV: {r: 1, g: 4, b: 0, a: 0}
     - _NoiseSpeedUV: {r: 0, g: 0, b: 0, a: 0}
     - _NoiseSpiralMultiplierUV: {r: 0.3, g: 0, b: 0, a: 0}
     - _NoiseTileUV: {r: 4, g: 0.7, b: 0, a: 0}

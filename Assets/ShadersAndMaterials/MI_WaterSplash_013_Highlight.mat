@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_WaterSplash_006
+  m_Name: MI_WaterSplash_013_Highlight
   m_Shader: {fileID: -6465566751694194690, guid: 7c4147230c9a5fd4597eae0073b59cb0, type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
