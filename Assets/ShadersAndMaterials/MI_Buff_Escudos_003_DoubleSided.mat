@@ -7,16 +7,20 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_Buff_Circle_Alt3
+  m_Name: MI_Buff_Escudos_003_DoubleSided
   m_Shader: {fileID: -6465566751694194690, guid: 2c7bf9864701e594db59cd47c3627849, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -81,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TxMain:
-        m_Texture: {fileID: 2800000, guid: d7f9004485bcf414599c7795543807d7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 45cf49178e591f347a8264cf3d19483b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TxNoise:
@@ -137,12 +141,13 @@ Material:
     - _AlphaSmoothStepE1: 0
     - _AlphaSmoothStepE2: 0
     - _AlphaToMask: 0
+    - _BackFaceAlphaMultiplier: 0.3
     - _BackFaceColorMultiplier: 0.5
     - _BackFadeAlphaMultiplier: 0.3
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BlendOp: 0
-    - _BloomMultiplier: 1
+    - _BloomMultiplier: 1.8
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
@@ -150,10 +155,11 @@ Material:
     - _CastShadows: 0
     - _ColorMode: 0
     - _ColorNoiseLerpContrast: 3
-    - _Cull: 2
+    - _ColorNoiseScale: 11
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DepthFadeDistance: 0
-    - _DepthFadeMultiplier: 0.3
+    - _DepthFadeMultiplier: 11
     - _DepthFadeMultiplierrr: 33
     - _DepthFadeOpacity: 0.1
     - _DepthFadePower: 1
@@ -164,8 +170,8 @@ Material:
     - _DistortionBlend: 0.5
     - _DistortionColorMultiplier: 0
     - _DistortionEnabled: 0
-    - _DistortionFilter002SmoothStepE1: 0.27
-    - _DistortionFilter002SmoothStepE2: 0.2
+    - _DistortionFilter002SmoothStepE1: 0
+    - _DistortionFilter002SmoothStepE2: 0.3
     - _DistortionMultiplier: 0.2
     - _DistortionNoiseMultiplier: 0.3
     - _DistortionScale: 10
@@ -205,13 +211,13 @@ Material:
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SrcBlend: 5
-    - _StreakFilterSmoothStepE1: 0.6
-    - _StreakFilterSmoothStepE2: 0.2
+    - _StreakFilterSmoothStepE1: 0.8
+    - _StreakFilterSmoothStepE2: 0.1
     - _Surface: 1
     - _TxMainConstrastToPowerOf: 4
     - _TxStreakMultiplier: 1
-    - _UDistortionMultiplier: 0.5
-    - _VDistortionMultiplier: 0.5
+    - _UDistortionMultiplier: 0.2
+    - _VDistortionMultiplier: 0.2
     - _VertexDisplacementContrastPower: 1
     - _VertexDisplacementMultiplier: 0
     - _Vertex_Displacement_Intensity: 0
@@ -230,9 +236,9 @@ Material:
     - _Color: {r: 1, g: 0.9568141, b: 0.504717, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _ColorForTxColorLowAlpha: {r: 1, g: 1, b: 1, a: 0}
-    - _ColorNoiseLerpA: {r: 1, g: 1, b: 1, a: 0}
-    - _ColorNoiseLerpB: {r: 1, g: 1, b: 1, a: 0}
-    - _ColorNoiseTileAndSpeedUV: {r: 1, g: 1, b: 0, a: 0}
+    - _ColorNoiseLerpA: {r: 0, g: 0.4745098, b: 1, a: 0}
+    - _ColorNoiseLerpB: {r: 0.07159144, g: 0, b: 0.3301887, a: 0}
+    - _ColorNoiseTileAndSpeedUV: {r: 1, g: 1, b: 0.2, a: 0.1}
     - _ColorOfFadedAlphaInTx: {r: 1, g: 0.503516, b: 0.27843136, a: 0}
     - _ColorOfTxFadedAlpha: {r: 1, g: 1, b: 1, a: 0}
     - _DisplacementSpeedUV: {r: -0.2, g: 0.9, b: 0, a: 0}
@@ -276,7 +282,7 @@ Material:
     - _OverallSpiralUV: {r: 0, g: 0, b: 0, a: 0}
     - _PerlinTileAndOffsetSpeed: {r: 1, g: 1, b: 0.1, a: -0.5}
     - _PolarCentreXY: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _PolarTileAndSpeed: {r: 1, g: 11, b: -1, a: 0.5}
+    - _PolarTileAndSpeed: {r: 0.2, g: 4, b: -0.3, a: 0.1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _TxColorTileAndOffsetSpeed: {r: 1, g: 3, b: -0.5, a: 0.2}
     - _TxNoiseTileAndSpeed: {r: 1, g: 1, b: 0, a: 0}

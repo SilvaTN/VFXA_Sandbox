@@ -44,6 +44,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 31b4902a4f880b64c8adc5ca77f4b302, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_eca7c957aed0419b9f25fbc2f949dc9b_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 56bc725be622c0e43bb180b7334600cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -145,6 +149,8 @@ Material:
     - _CameraNearFadeDistance: 1
     - _CastShadows: 0
     - _ColorMode: 0
+    - _ColorNoiseLerpContrast: 3
+    - _ColorNoiseScale: 22
     - _Cull: 2
     - _Cutoff: 0.5
     - _DepthFadeDistance: 0
@@ -225,6 +231,9 @@ Material:
     - _Color: {r: 1, g: 0.9568141, b: 0.504717, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _ColorForTxColorLowAlpha: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorNoiseLerpA: {r: 1, g: 0.9137255, b: 0, a: 0}
+    - _ColorNoiseLerpB: {r: 0.8679245, g: 0.09416164, b: 0.36725432, a: 0}
+    - _ColorNoiseTileAndSpeedUV: {r: 1, g: 1, b: 0.5, a: 0.2}
     - _ColorOfFadedAlphaInTx: {r: 1, g: 0.503516, b: 0.27843136, a: 0}
     - _ColorOfTxFadedAlpha: {r: 1, g: 1, b: 1, a: 0}
     - _DisplacementSpeedUV: {r: -0.2, g: 0.9, b: 0, a: 0}
