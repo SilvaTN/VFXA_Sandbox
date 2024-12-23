@@ -157,7 +157,7 @@ Material:
     - _UDistortionMultiplier: 1
     - _VDistortionMultiplier: 1
     - _VertexDisplacementContrastPower: 1
-    - _VertexDisplacementMultiplier: 0.2
+    - _VertexDisplacementMultiplier: 0.4
     - _Vertex_Displacement_Intensity: 0
     - _VoronoiCellDensity: 3
     - _VoronoiLerpVertexAlpha: 0.5
@@ -174,7 +174,7 @@ Material:
     - _ColorOfTxFadedAlpha: {r: 1, g: 1, b: 1, a: 0}
     - _DisplacementSpeedUV: {r: 0, g: -2, b: 0, a: 0}
     - _DisplacementSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
-    - _DisplacementTileUV: {r: 1, g: 1, b: 0, a: 0}
+    - _DisplacementTileUV: {r: 3, g: 1, b: 0, a: 0}
     - _DissolveDistortionSpeedUV: {r: 1, g: -1, b: 0, a: 0}
     - _DissolveDistortionSpiralMultiplierUV: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveDistortionTileUV: {r: 2, g: 2, b: 0, a: 0}
@@ -188,6 +188,7 @@ Material:
     - _EmissiveSpiralUV: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveTileUV: {r: 1, g: 1, b: 0, a: 0}
     - _Emissive_Color: {r: 0, g: 4, b: 3.449684, a: 0}
+    - _FresnelAlphaSmoothStep: {r: 0, g: 1, b: 0, a: 0}
     - _FresnelColor: {r: 0.51397294, g: 0.648316, b: 0.6603774, a: 0}
     - _FresnelLerpColorA: {r: 0.6696144, g: 0.7924528, b: 0.5943396, a: 0}
     - _FresnelLerpColorB: {r: 1, g: 1, b: 1, a: 0}

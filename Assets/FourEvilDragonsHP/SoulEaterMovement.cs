@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class SoulEaterMovement : MonoBehaviour
@@ -9,6 +10,9 @@ public class SoulEaterMovement : MonoBehaviour
     private float currentRotationSpeed;
     [SerializeField] private float runRotationSpeed;
     [SerializeField] private float flyRotationSpeed;
+    [SerializeField] private ParticleSystem projectilePS;
+    [SerializeField] private float projectilePSDelay;
+    [SerializeField] Projectile projectileScript;
 
     private void Start()
     {
@@ -45,6 +49,7 @@ public class SoulEaterMovement : MonoBehaviour
         {
             Debug.Log("Pressed Space");
             dragonAnimator.SetTrigger(AnimatorParameters.IsAttacking);
+            StartCoroutine(PlayAttackPS());
         }
         else if (translation != 0f) //(Input.GetKey(KeyCode.W))
         {
@@ -76,5 +81,12 @@ public class SoulEaterMovement : MonoBehaviour
             dragonAnimator.SetBool(AnimatorParameters.IsRotating, false);
         }        
 
+    }
+
+    private IEnumerator PlayAttackPS()
+    {        
+        yield return new WaitForSeconds(projectilePSDelay);
+        projectileScript.ReattachToParent();
+        projectilePS.Play();
     }
 }
